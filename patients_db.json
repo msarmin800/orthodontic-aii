@@ -1,0 +1,136 @@
+{
+  "1": {
+    "name": "Mamad",
+    "age": 12,
+    "sex": "M",
+    "treatment": "Extract",
+    "crowding_upper": 2.0,
+    "crowding_lower": 3.0,
+    "overjet": 5.0,
+    "anb": 4.0,
+    "initial_cooperation": 1.24,
+    "initial_missed": 1.48,
+    "initial_prediction": 25.449207305908203,
+    "all_predictions": {
+      "Linear Regression": 22.56866711687056,
+      "Lasso": 22.715164436609193,
+      "ElasticNet": 22.816745438101638,
+      "Random Forest": 24.047310786435787,
+      "AdaBoost": 25.0,
+      "XGBoost": 25.449207305908203
+    },
+    "created_date": "2025-10-31 15:32",
+    "updated_data": {
+      "cooperation": "Good",
+      "missed_appointments": 4,
+      "updated_prediction": 25.494728088378906,
+      "all_predictions": {
+        "Linear Regression": 25.09119698236106,
+        "Lasso": 24.3207810171652,
+        "ElasticNet": 24.531513591726682,
+        "Random Forest": 23.762684523809522,
+        "AdaBoost": 25.0,
+        "XGBoost": 25.494728088378906
+      },
+      "updated_date": "2025-10-31 15:32"
+    }
+  },
+  "12": {
+    "name": "Mamad",
+    "age": 15,
+    "sex": "M",
+    "treatment": "Extract",
+    "initial_prediction": 27.0953311920166,
+    "final_prediction": 27.126922607421875,
+    "cooperation": "Moderate",
+    "missed_appointments": 2,
+    "created_date": "2025-10-31 15:43"
+  },
+  "120": {
+    "name": "Mamadi",
+    "age": 15,
+    "sex": "M",
+    "treatment": "Extract",
+    "initial_prediction": 25.328975677490234,
+    "final_prediction": 25.23121452331543,
+    "cooperation": "Good",
+    "missed_appointments": 6,
+    "created_date": "2025-10-31 15:44"
+  },
+  "30": {
+    "name": "Ali",
+    "age": 16,
+    "sex": "M",
+    "treatment": "Extract",
+    "initial_prediction": 23.242263793945312,
+    "cooperation": "Moderate",
+    "missed_appointments": 3,
+    "final_prediction": 23.1968994140625,
+    "created_date": "2025-10-31 15:50",
+    "updated_date": "2025-10-31 15:50"
+  },
+  "126": {
+    "name": "Mamadian",
+    "age": 21,
+    "sex": "Male",
+    "treatment": "Extract",
+    "initial_prediction": 24.320783615112305,
+    "created_date": "2025-10-31 16:07",
+    "all_predictions": {
+      "Linear Regression": 26.333650916757733,
+      "Lasso": 26.279269797402964,
+      "ElasticNet": 26.309312978970237,
+      "Random Forest": 24.43063095238095,
+      "AdaBoost": 25.333333333333332,
+      "XGBoost": 24.320783615112305
+    },
+    "cooperation": "Moderate",
+    "missed_appointments": 4,
+    "final_prediction": 24.29456329345703,
+    "updated_date": "2025-10-31 16:08",
+    "final_all_predictions": {
+      "Linear Regression": 25.868619303074286,
+      "Lasso": 24.842397232598202,
+      "ElasticNet": 25.087739275811153,
+      "Random Forest": 22.14584523809524,
+      "AdaBoost": 23.0,
+      "XGBoost": 24.29456329345703
+    }
+  },
+  "P001": {
+    "name": "Ali",
+    "age": 14,
+    "sex": "Male",
+    "treatment": "Extract",
+    "initial_prediction": 20.0759220123291,
+    "created_date": "2025-10-31 16:11",
+    "all_predictions": {
+      "Linear Regression": 23.42047025591086,
+      "Lasso": 23.0429295291281,
+      "ElasticNet": 23.096164230168007,
+      "Random Forest": 21.627161172161166,
+      "AdaBoost": 22.5,
+      "XGBoost": 20.0759220123291
+    },
+    "cooperation": "Moderate",
+    "missed_appointments": 2,
+    "final_prediction": 24.919740676879883,
+    "updated_date": "2025-10-31 16:12"
+  },
+  "25": {
+    "name": "Oli",
+    "age": 65,
+    "sex": "Male",
+    "treatment": "Extract",
+    "initial_prediction": 31.815439224243164,
+    "created_date": "2025-10-31 16:14",
+    "all_predictions": {
+      "Linear Regression": 16.257754496148905,
+      "Lasso": 18.632681156893298,
+      "ElasticNet": 19.292762172146855,
+      "Random Forest": 30.94528571428571,
+      "AdaBoost": 31.0,
+      "XGBoost": 31.815439224243164
+    }
+  }
+}

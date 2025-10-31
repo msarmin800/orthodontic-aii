@@ -1,0 +1,85 @@
+
+================================================================================
+MODEL PERFORMANCE REPORT - TRAINING & TESTING RESULTS
+================================================================================
+
+Dataset Information:
+  - Total Patients: 50
+  - Training Set: 37 patients (75%)
+  - Test Set: 13 patients (25%)
+  - Number of Features: 9
+  - Features: Age_Start, Sex_Encoded, Treatment_Extract, Crowding_Upper, Crowding_Lower, Overjet, ANB, Cooperation_Encoded, Appointments_Skipped
+
+Target Variable (Treatment Duration):
+  - Mean: 24.7 months
+  - Std Dev: 5.1 months
+  - Min: 16 months
+  - Max: 36 months
+
+================================================================================
+DETAILED MODEL COMPARISON
+================================================================================
+
+
+1. Linear Regression
+   Mean Absolute Error (MAE): ±2.35 months
+   Root Mean Squared Error (RMSE): ±2.77 months
+   R² Score: 0.765 (76.5% variance explained)
+
+2. Lasso
+   Mean Absolute Error (MAE): ±2.46 months
+   Root Mean Squared Error (RMSE): ±2.83 months
+   R² Score: 0.755 (75.5% variance explained)
+
+3. ElasticNet
+   Mean Absolute Error (MAE): ±2.52 months
+   Root Mean Squared Error (RMSE): ±2.89 months
+   R² Score: 0.746 (74.6% variance explained)
+
+4. Random Forest
+   Mean Absolute Error (MAE): ±1.72 months
+   Root Mean Squared Error (RMSE): ±2.17 months
+   R² Score: 0.856 (85.6% variance explained)
+
+5. AdaBoost
+   Mean Absolute Error (MAE): ±1.76 months
+   Root Mean Squared Error (RMSE): ±2.12 months
+   R² Score: 0.864 (86.4% variance explained)
+
+6. XGBoost ← BEST MODEL
+   Mean Absolute Error (MAE): ±1.25 months
+   Root Mean Squared Error (RMSE): ±1.72 months
+   R² Score: 0.910 (91.0% variance explained)
+
+================================================================================
+BEST MODEL SUMMARY
+================================================================================
+
+Model Name: XGBoost
+Mean Absolute Error: ±1.25 months
+Expected Prediction Range: ±1.25 months from actual
+
+Interpretation:
+  - This model explains approximately 91.0% of variance
+  - On average, predictions are within ±1.25 months
+  - Suitable for clinical decision-making with reasonable confidence
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. Current Status: 50 patients - GOOD START
+   - Model is reasonably stable
+   - Accuracy: ±1.25 months
+
+2. To Improve (Target):
+   - 50 patients: Expected accuracy ±1.5 months
+   - 100 patients: Expected accuracy ±1.2 months
+   - 150 patients: Expected accuracy ±1.0 month (publishable)
+
+3. Next Steps:
+   - Collect more patient data
+   - Monitor model performance over time
+   - Validate predictions clinically
+
+Generated: 2025-10-31 15:31:29
